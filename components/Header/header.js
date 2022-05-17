@@ -14,10 +14,10 @@ function Layout () {
         </ContainerInfo>
 
         <ContainerIcons>
-        <SocialIcons href="https://github.com/inf23r4">
+        <SocialIcons target='_blank' href="https://github.com/inf23r4">
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/mario-diaz-ag%C3%BCero-108350198/">
+        <SocialIcons target='_blank' href="https://www.linkedin.com/in/mario-diaz-ag%C3%BCero-108350198/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
       </ContainerIcons>

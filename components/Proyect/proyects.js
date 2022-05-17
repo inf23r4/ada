@@ -74,7 +74,7 @@ const Proyects = () => {
         .slice((pagina - 1 )* porPagina, (pagina - 1)* porPagina + porPagina)
         .map((item, i)=>{
           return(
-            <Cart key= {i} href={item.url}>
+            <Cart key= {i} href={item.url} target='_blank'>
             {item.img === "t.gif"? <CartImage src={item.img} alt={item.title}/> : 
               <Image height={90} width={90} src={item.img} alt={item.title} />
             }
