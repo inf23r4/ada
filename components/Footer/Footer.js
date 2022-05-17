@@ -1,25 +1,30 @@
 import styled from "styled-components"
+import Technologies from '../technologies/technologies'
 
 const Container = styled.div`
     display: flex;
     position: absolute;
-    background-color: #091C2D ;
+    background-color: #0D1826 ;
+    flex-direction: column;
     bottom: 0px;
     width: 100%;
-    height: 20px;
-    justify-content: end;
+    height: 90px;
+    justify-content: center;
     font-size: small;
     @media ${(props) => props.theme.breakpoints.md} {
-    position: relative;}
-`
-const Text = styled.p`
-  margin-right: 5px;
+      position: relative;
+      bottom: 0px;
+      }
+    @media ${(props) => props.theme.breakpoints.sm} {
+      position:relative;
+      height: 60px;
+      }
 `
 
 const Footer = () => {
   return (
     <Container>
-        <Text>App created with next.js</Text>
+        <Technologies/>
     </Container>
   )
 }

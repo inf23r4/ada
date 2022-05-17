@@ -7,25 +7,20 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     @media ${(props) => props.theme.breakpoints.sm} {
-        margin-top: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-  grid-template-areas:
-    "cart cart cart cart "
-    ;
-  grid-gap: 0.2rem;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 20px; 
     }
 `
 const Div = styled.div`
-    margin: 30px;
+    margin: 8px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: "cart";
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -36,6 +31,7 @@ const Text = styled.p`
     align-items: center;
     justify-content: center;
     font-size: small;
+    text-shadow: 2px 3px 0 #2a2a2a;
     @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 15px;
     }

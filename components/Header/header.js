@@ -1,4 +1,4 @@
-import { ContainerIcons, SocialIcons, Container, ContainerInfo,  Image, Title} from "./headerStyles"
+import { Span,  ContainerIcons, SocialIcons, Container, ContainerInfo,  Image, Title} from "./headerStyles"
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import LineCircle from "../Layout/lineCircle";
 
@@ -7,10 +7,9 @@ function Layout () {
   return (
     <Container>
         <LineCircle/>
-        <ContainerInfo>
-            <Image src ="https://avatars.githubusercontent.com/u/78464249?v=4" alt = "profile"/>  
+        <ContainerInfo>  
             <Title>Mario Gabriel Agüero Diaz</Title>
-            <h4>Developer</h4>
+            <Span>Developer</Span>
             <br/>
         </ContainerInfo>
 

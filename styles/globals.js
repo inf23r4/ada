@@ -38,7 +38,7 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-  h4{
+  span{
     display: block;
     font-family: monospace;
     white-space: nowrap;
